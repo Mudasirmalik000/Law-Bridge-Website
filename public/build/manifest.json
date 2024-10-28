@@ -1,0 +1,21 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-5nmJIeZB.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  },
+  "resources/css/swiper.css": {
+    "file": "assets/swiper-DYLz8Ocg.css",
+    "src": "resources/css/swiper.css",
+    "isEntry": true
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-5p7RKgvn.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "css": [
+      "assets/app-D8hpCEjB.css"
+    ]
+  }
+}
