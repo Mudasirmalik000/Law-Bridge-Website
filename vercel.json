@@ -21,7 +21,7 @@
         "APP_ENV": "production",
         "APP_DEBUG": "false",
         "APP_URL": "https://your-vercel-app-name.vercel.app",
-        "APP_KEY": "base64:lnB8ckO7E6nd0bcnILtTkjScK2VvQPzAw1iel1J66y0=",
+        "APP_KEY": "APP_KEY",
 
         "APP_LOCALE": "en",
         "APP_FALLBACK_LOCALE": "en",
@@ -35,7 +35,7 @@
         "MAIL_HOST": "smtp-relay.brevo.com",
         "MAIL_PORT": "587",
         "MAIL_USERNAME": "7be31a003@smtp-brevo.com",
-        "MAIL_PASSWORD": "xsmtpsib-47bb6211c349bbeb8baca84888e9a6f6c66a55b7361b8ce59b4e5e1098291a23-AdSLjT3pzaG6wkCF",
+        "MAIL_PASSWORD": "SMTP_PASSWORD",
         "MAIL_ENCRYPTION": "tls",
         "MAIL_FROM_ADDRESS": "connectwithlawbridge@gmail.com",
         "MAIL_FROM_NAME": "Law Bridge Associates",
