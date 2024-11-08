@@ -25,7 +25,8 @@ jobs:
       # Removed the database migration part since you're not using a database
 
       - name: Deploy to Vercel
-        run: vercel deploy --prod --token=${{ secrets.VERCEL_TOKEN }}
+        run: vercel deploy --prod --token=$VERCEL_TOKEN
         env:
           VERCEL_ORG_ID: ${{ secrets.VERCEL_ORG_ID }}
           VERCEL_PROJECT_ID: ${{ secrets.VERCEL_PROJECT_ID }}
+          VERCEL_TOKEN: ${{ 'ZaBBQ0SqbVEdirgIzOzoGX4K' }}
