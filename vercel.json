@@ -3,10 +3,7 @@
     "builds": [
         {
             "src": "api/*.php",
-            "use": "@vercel/php",
-            "config": {
-                "runtime": "vercel-php@latest"
-            }
+            "use": "vercel-php@latest"
         }
     ],
     "routes": [
