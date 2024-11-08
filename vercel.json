@@ -17,20 +17,22 @@
         }
     ],
     "outputDirectory": "public",
+    "functions": {
+        "api/*.php": {
+            "runtime": "vercel-php@0.7.3"
+        }
+    },
     "env": {
         "APP_ENV": "production",
         "APP_DEBUG": "false",
         "APP_URL": "https://your-vercel-app-name.vercel.app",
         "APP_KEY": "APP_KEY",
-
         "APP_LOCALE": "en",
         "APP_FALLBACK_LOCALE": "en",
         "APP_TIMEZONE": "UTC",
-
         "LOG_CHANNEL": "stderr",
         "SESSION_DRIVER": "cookie",
         "CACHE_DRIVER": "array",
-
         "MAIL_MAILER": "smtp",
         "MAIL_HOST": "smtp-relay.brevo.com",
         "MAIL_PORT": "587",
@@ -40,8 +42,6 @@
         "MAIL_FROM_ADDRESS": "connectwithlawbridge@gmail.com",
         "MAIL_FROM_NAME": "Law Bridge Associates",
         "MAIL_EHLO_DOMAIN": "connectwithlawbridge",
-
         "VITE_APP_NAME": "Law Bridge Associates"
     }
 }
-
